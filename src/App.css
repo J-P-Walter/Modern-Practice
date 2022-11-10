@@ -1,0 +1,12 @@
+.modern__wrapper {
+  background-color: rgb(6, 11, 25);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  overflow: hidden;
+}
+main {
+  flex-grow: 1;
+}

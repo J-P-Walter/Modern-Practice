@@ -1,0 +1,67 @@
+.modern__article {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 2fr calc(100% / 3);
+  grid-template-rows: calc(2 * (100% / 3)) calc(100% / 3);
+  color: white;
+  font-family: "Kantumruy Pro", sans-serif;
+}
+.modern__article-section {
+  height: 100%;
+  display: flex;
+}
+
+.description,
+.nav {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+.title,
+.nav {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.image {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.description {
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.title {
+  flex-basis: 75%;
+  justify-content: center;
+  align-items: center;
+}
+.title > p {
+  padding-left: 10%;
+  flex-basis: 60%;
+  font-size: 4rem;
+}
+.title > button {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.75);
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nav > button {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.75);
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nav > button:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
