@@ -1,1 +1,1 @@
-Tried to make a modern-ish design. The plan was to make it so you could pan between articles with the left and right buttons but couldn't figure it out. Might be easier if not done in react. You can find the website (here)[https://jp-walter-modern.netlify.app/]
+Tried to make a modern-ish design. The plan was to make it so you could pan between articles with the left and right buttons but couldn't figure it out. Might be easier if not done in react. You can find the website [here](https://jp-walter-modern.netlify.app/)
